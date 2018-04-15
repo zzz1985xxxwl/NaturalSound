@@ -12,6 +12,9 @@
 		DF1796D62082C80300E77234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1796D42082C80300E77234 /* Main.storyboard */; };
 		DF1796D82082C80400E77234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1796D72082C80400E77234 /* Assets.xcassets */; };
 		DF1796DB2082C80400E77234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1796D92082C80400E77234 /* LaunchScreen.storyboard */; };
+		DF1796E42082D22100E77234 /* rain1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1796E32082D22100E77234 /* rain1.mp3 */; };
+		DF1796E72083366800E77234 /* ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1796E62083366800E77234 /* ring.mp3 */; };
+		DF1796E920833C6200E77234 /* SoundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1796E820833C6200E77234 /* SoundTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DF1796D72082C80400E77234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF1796DA2082C80400E77234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF1796DC2082C80400E77234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1796E32082D22100E77234 /* rain1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain1.mp3; sourceTree = "<group>"; };
+		DF1796E62083366800E77234 /* ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ring.mp3; sourceTree = "<group>"; };
+		DF1796E820833C6200E77234 /* SoundTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,33 @@
 		DF1796CF2082C80300E77234 /* NaturalSound */ = {
 			isa = PBXGroup;
 			children = (
+				DF1796E52082DB9900E77234 /* Model */,
+				DF1796E22082D20F00E77234 /* resource */,
 				DF1796D02082C80300E77234 /* AppDelegate.swift */,
 				DF1796D22082C80300E77234 /* ViewController.swift */,
 				DF1796D42082C80300E77234 /* Main.storyboard */,
 				DF1796D72082C80400E77234 /* Assets.xcassets */,
 				DF1796D92082C80400E77234 /* LaunchScreen.storyboard */,
 				DF1796DC2082C80400E77234 /* Info.plist */,
+				DF1796E820833C6200E77234 /* SoundTableViewController.swift */,
 			);
 			path = NaturalSound;
+			sourceTree = "<group>";
+		};
+		DF1796E22082D20F00E77234 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				DF1796E62083366800E77234 /* ring.mp3 */,
+				DF1796E32082D22100E77234 /* rain1.mp3 */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		DF1796E52082DB9900E77234 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +149,9 @@
 			files = (
 				DF1796DB2082C80400E77234 /* LaunchScreen.storyboard in Resources */,
 				DF1796D82082C80400E77234 /* Assets.xcassets in Resources */,
+				DF1796E42082D22100E77234 /* rain1.mp3 in Resources */,
 				DF1796D62082C80300E77234 /* Main.storyboard in Resources */,
+				DF1796E72083366800E77234 /* ring.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,7 @@
 			files = (
 				DF1796D32082C80300E77234 /* ViewController.swift in Sources */,
 				DF1796D12082C80300E77234 /* AppDelegate.swift in Sources */,
+				DF1796E920833C6200E77234 /* SoundTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
